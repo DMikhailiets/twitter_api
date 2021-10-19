@@ -26,7 +26,7 @@ function App() {
         <Switch checked={isDarkMode} onChange={toggleTheme} style={{marginLeft: '1%'}}/>
       </header>
       
-        <Route exact path={["/"]} render = { () => <RootComponent/>}/>
+        <Route path={["/"]} render = { () => <RootComponent/>}/>
       
     </Layout>
   );
